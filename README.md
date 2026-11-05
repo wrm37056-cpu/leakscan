@@ -8,7 +8,7 @@
 ## 安裝
 
 ```bash
-pip install git+https://github.com/wrm37056-cpu/secretsweep.git
+pip install secretsweep
 ```
 
 ## 使用
