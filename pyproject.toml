@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leakscan"
+version = "0.1.0"
+description = "Scan files for accidentally committed secrets"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+[project.scripts]
+leakscan = "leakscan:main"
+
+[tool.setuptools]
+packages = ["leakscan"]
