@@ -1,4 +1,4 @@
-# leakscan
+# secretsweep
 
 掃描資料夾，找出不小心寫進程式碼的 API key、token、私鑰等機密資料。
 只用 Python 標準函式庫，沒有任何外部相依套件。
@@ -14,9 +14,9 @@ pip install .
 ## 使用
 
 ```bash
-leakscan            # 掃描目前資料夾
-leakscan src/ app.py
-python -m leakscan .
+secretsweep            # 掃描目前資料夾
+secretsweep src/ app.py
+python -m secretsweep .
 ```
 
 輸出只會顯示**檔案、行號、類型**，不會印出機密本身（避免機密再外洩到 CI log）。

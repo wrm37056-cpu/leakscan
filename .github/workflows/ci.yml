@@ -20,4 +20,4 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: python -m unittest -v
       - name: Scan this repo with itself
-        run: python -m leakscan .
+        run: python -m secretsweep .

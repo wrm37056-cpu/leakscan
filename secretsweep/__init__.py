@@ -53,7 +53,7 @@ def scan_paths(paths):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(prog="leakscan", description=__doc__)
+    parser = argparse.ArgumentParser(prog="secretsweep", description=__doc__)
     parser.add_argument("paths", nargs="*", default=["."], help="files or folders (default: .)")
     parser.add_argument("--version", action="version", version=__version__)
     args = parser.parse_args(argv)

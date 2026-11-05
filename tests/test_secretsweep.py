@@ -2,7 +2,7 @@ import os
 import tempfile
 import unittest
 
-from leakscan import main, scan_paths, scan_text
+from secretsweep import main, scan_paths, scan_text
 
 # Fake secrets are built by concatenation so this file doesn't trip the scanner itself.
 FAKE = {

@@ -17,5 +17,5 @@ What to expect:
 - A fix or a decision within 30 days, depending on severity.
 - Credit in the release notes if you want it.
 
-Missed detections (a secret format leakscan does not catch) are welcome as
+Missed detections (a secret format secretsweep does not catch) are welcome as
 normal issues, as long as the report contains no real secret.
